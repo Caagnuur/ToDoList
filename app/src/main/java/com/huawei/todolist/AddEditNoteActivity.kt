@@ -75,6 +75,7 @@ class AddEditNoteActivity : AppCompatActivity() {
         val data = Intent()
         // only if note ID was provided i.e. we are editing
         if(noteId != -1)
+
             data.putExtra(EXTRA_ID, noteId)
         data.putExtra(EXTRA_TITLE, title)
         data.putExtra(EXTRA_DESCRIPTION, desc)
